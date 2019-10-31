@@ -1,0 +1,33 @@
+
+h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}#sidebar-wrapper {
+    left: 280px;
+    background: #ffffff;
+    position: fixed;
+    height: 100%;
+    z-index: 10000;
+    transition: all .4s ease 0s;
+    border-top: 1px solid #373737;
+    border-bottom: 1px solid #1A1A1A;
+    border-left: 1px solid #1A1A1A;
+    border-right: 1px solid #1A1A1A;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 150px;
+}
+
+@media (max-width:767px) {
+    #wrapper {
+    padding-left: 70px;
+    transition: all .4s ease 0s;
+}
+}
