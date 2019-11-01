@@ -4,14 +4,18 @@ body {
   }
   
 .header {
+    height: 44px;
     overflow: hidden;
-    background-color: #f0eeee;
+    background-color: #5D4B6A;
+    color: #ffffff;
     padding: 0px 0px;
-    height: 30px;
     border-top: 1px solid #373737;
     border-bottom: 1px solid #1A1A1A;
     border-left: 1px solid #1A1A1A;
     border-right: 1px solid #1A1A1A;
+  }
+  .header h4{
+    margin-left: 100px;
   }
   
   @media screen and (max-width: 50px) {
